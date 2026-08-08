@@ -35,6 +35,9 @@ git clone https://github.com/sportlive18/HLS-LINK-EXTRACTOR
 cd HLS-LINK-EXTRACTOR
 python m3u_extractor.py
 
+# Open in browser
+http://localhost:8080
+
 ```
 
 That's it. No `pip install`. No `npm install`. No config files.
@@ -54,6 +57,8 @@ git clone https://github.com/sportlive18/HLS-LINK-EXTRACTOR
 cd HLS-LINK-EXTRACTOR
 python m3u_extractor.py
 
+# Open in browser
+http://localhost:8080
 ```
 
 Works perfectly on mobile. Background run supported with `nohup`.
