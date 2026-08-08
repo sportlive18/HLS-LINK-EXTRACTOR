@@ -28,6 +28,13 @@ python m3u_extractor.py
 
 # Open in browser
 http://localhost:8080
+
+or
+
+git clone https://github.com/sportlive18/HLS-LINK-EXTRACTOR
+cd HLS-LINK-EXTRACTOR
+python m3u_extractor.py
+
 ```
 
 That's it. No `pip install`. No `npm install`. No config files.
@@ -40,6 +47,13 @@ That's it. No `pip install`. No `npm install`. No config files.
 pkg install python -y
 python m3u_extractor.py
 # Open http://localhost:8080 in your Android browser
+
+or
+
+git clone https://github.com/sportlive18/HLS-LINK-EXTRACTOR
+cd HLS-LINK-EXTRACTOR
+python m3u_extractor.py
+
 ```
 
 Works perfectly on mobile. Background run supported with `nohup`.
