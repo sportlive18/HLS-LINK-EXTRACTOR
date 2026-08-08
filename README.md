@@ -154,20 +154,6 @@ https://jcevents.hotstar.com/.../playlist.m3u8
 
 ---
 
-## 🌐 Access from Other Devices
-
-Since the server binds to all interfaces, any device on your WiFi can access it:
-
-```bash
-# On the host machine (or Termux)
-ifconfig
-# Find your IP, e.g., 192.168.1.45
-
-# On any other device on the same network:
-# http://192.168.1.45:8080
-```
-
----
 
 ## 🛠️ Customization
 
@@ -176,11 +162,6 @@ ifconfig
 # In m3u_extractor.py, change this line:
 PORT = 8080   # ← Change to any port you want
 ```
-
-### Add Default URLs
-Edit the `value` attribute of the input field in the HTML string inside `m3u_extractor.py`.
-
----
 
 ## ⚠️ Notes
 
@@ -205,4 +186,4 @@ Built with ❤️ using only **Python built-in modules** + **vanilla JavaScript*
 
 ---
 
-This README covers everything a visitor needs to know — from **what it is**, **how to run it**, **what features it has**, to **how the code works internally**. It's beginner-friendly but detailed enough for developers. Good luck with your repo! 🚀
+
