@@ -46,24 +46,6 @@ Works perfectly on mobile. Background run supported with `nohup`.
 
 ---
 
-## 🎯 How It Works
-
-```
-┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│   Your Browser  │────▶│  Python Server   │────▶│  GitHub Raw URL │
-│  (localhost:8080)│     │  (No CORS!)      │     │  (playlist.m3u) │
-└─────────────────┘     └──────────────────┘     └─────────────────┘
-         │                        │
-         │◀──── Parsed JSON ──────│
-         │   (Channel names,      │
-         │    URLs, headers)      │
-         ▼                        ▼
-   ┌─────────────────────────────────────────┐
-   │  Beautiful UI with copy buttons,        │
-   │  search, stats, animations, and more    │
-   └─────────────────────────────────────────┘
-```
-
 ### The Parser Reads:
 - `#EXTINF` → Channel name, group, logo
 - `#EXTVLCOPT` → User-Agent, Referer, Cookie
